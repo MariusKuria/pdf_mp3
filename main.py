@@ -21,8 +21,8 @@ def text_to_speech(text, output_path='output.mp3'):
     tts.save(output_path)
 
 def main():
-    pdf_path = '/Users/musumakas/Desktop/pdf_mp3/Hello .pdf'  # Replace with the path to your PDF file
-    output_path = 'master.mp3'  # Output MP3 file path
+    pdf_path = '/Users/musumakas/Desktop/pdf_mp3/algo.pdf'  # Replace with the path to your PDF file
+    output_path = 'algo.mp3'  # Output MP3 file path
 
     text = pdf_to_text(pdf_path)
     text_to_speech(text, output_path)
